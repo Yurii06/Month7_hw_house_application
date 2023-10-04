@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Month7_hw</string>
+    <string name="blank_fragment">Blank fragment</string>
+    <string name="toolbar_title">Toolbar Title</string>
+    <string name="camera_name">Камера 1</string>
+</resources>

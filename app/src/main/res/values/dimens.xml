@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_layout_height">44dp</dimen>
+    <dimen name="tab_indicator_height">2dp</dimen>
+    <dimen name="toolbar_text_size">20sp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="card_view_margin">16dp</dimen>
+    <dimen name="card_view_text_size">16sp</dimen>
+    <dimen name="icon_star_height">24dp</dimen>
+    <dimen name="icon_star_margin">10dp</dimen>
+    <dimen name="card_view_img_height">208dp</dimen>
+</resources>
