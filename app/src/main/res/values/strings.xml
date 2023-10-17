@@ -4,4 +4,6 @@
     <string name="blank_fragment">Blank fragment</string>
     <string name="toolbar_title">Toolbar Title</string>
     <string name="camera_name">Камера 1</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="door_default_name">Дверь 1</string>
 </resources>

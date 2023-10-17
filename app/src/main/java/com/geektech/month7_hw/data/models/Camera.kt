@@ -10,6 +10,6 @@ data class Camera(
     val id: Int,
     val name: String = "Camera",
     @SerializedName("snapshot")
-    val image: String? = null,
-    var isFavourite: Boolean = false
+    val image: String ?= null,
+    var isFavourite : Boolean = false
 )

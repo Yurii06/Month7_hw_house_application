@@ -8,6 +8,5 @@ data class Door(
     @PrimaryKey
     val id: Int,
     val name: String = "Door",
-    val image: String? = null,
-    var isFavourite: Boolean = false
+    var isFavourite : Boolean = false
 )

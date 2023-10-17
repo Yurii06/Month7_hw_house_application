@@ -9,9 +9,9 @@ interface DoorRepository {
 
     suspend fun getAllDoors(): Flow<Resource<List<DoorModel>>>
 
-    suspend fun getResult(): Flow<List<DoorModel>>
+    suspend fun getResult() : Flow<Resource<List<DoorModel>>>
 
-    suspend fun insertDoor(door: DoorModel): Unit
+    suspend fun insertDoor(doors: List<DoorModel>): Unit
 
     suspend fun updateDoor(door: DoorModel): Unit
 

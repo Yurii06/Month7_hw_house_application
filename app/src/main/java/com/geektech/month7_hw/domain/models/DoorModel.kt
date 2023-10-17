@@ -1,8 +1,10 @@
 package com.geektech.month7_hw.domain.models
 
+import androidx.room.PrimaryKey
+
 data class DoorModel(
+    @PrimaryKey
     val id: Int,
     val name: String = "Door",
-    val image: String? = null,
-    var isFavourite: Boolean = false
+    var isFavourite : Boolean = false
 )

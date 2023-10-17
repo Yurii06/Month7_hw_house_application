@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         initViews()
 
-        val arrayNumbers = listOf<Int>(1, 2, 3, 4, 5, 6)
+        val arrayNumbers = listOf<Int>(1,2,3,4,5,6)
         arrayNumbers.filter { it % 2 == 0 }
         val a = 0.0f
         arrayNumbers.map {

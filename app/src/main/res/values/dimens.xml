@@ -9,4 +9,6 @@
     <dimen name="icon_star_height">24dp</dimen>
     <dimen name="icon_star_margin">10dp</dimen>
     <dimen name="card_view_img_height">208dp</dimen>
+    <dimen name="image_default_height">320dp</dimen>
+    <dimen name="item_default_margin">16dp</dimen>
 </resources>

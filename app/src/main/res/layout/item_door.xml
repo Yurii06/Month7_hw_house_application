@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="16dp">
+    android:layout_marginHorizontal="@dimen/item_default_margin"
+    android:layout_marginTop="@dimen/item_default_margin">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -18,7 +19,7 @@
             android:paddingBottom="@dimen/card_view_margin">
 
             <ImageView
-                android:id="@+id/iv_camera"
+                android:id="@+id/iv_door"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/image_default_height"
                 android:src="@drawable/image_door"
@@ -30,10 +31,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/card_view_margin"
                 android:layout_marginTop="@dimen/card_view_margin"
-                android:text="@string/camera_name"
+                android:text="@string/door_default_name"
                 android:textSize="@dimen/card_view_text_size"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/iv_camera" />
+                app:layout_constraintTop_toBottomOf="@id/iv_door" />
 
             <ImageView
                 android:id="@+id/iv_fav_icon"
@@ -41,8 +42,8 @@
                 android:layout_height="@dimen/icon_star_height"
                 android:layout_margin="@dimen/icon_star_margin"
                 android:src="@drawable/icon_star_empty"
-                app:layout_constraintEnd_toEndOf="@id/iv_camera"
-                app:layout_constraintTop_toTopOf="@id/iv_camera" />
+                app:layout_constraintEnd_toEndOf="@id/iv_door"
+                app:layout_constraintTop_toTopOf="@id/iv_door" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

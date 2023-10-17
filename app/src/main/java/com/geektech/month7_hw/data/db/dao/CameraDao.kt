@@ -13,7 +13,7 @@ interface CameraDao {
     suspend fun getAllCameras(): List<Camera>
 
     @Insert
-    suspend fun insertCamera(camera: Camera): Unit
+    suspend fun insertCamera(cameras: List<Camera>): Unit
 
     @Update
     suspend fun updateCamera(camera: Camera): Unit

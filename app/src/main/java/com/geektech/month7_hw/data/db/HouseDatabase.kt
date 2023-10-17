@@ -8,7 +8,7 @@ import com.geektech.month7_hw.data.models.Camera
 import com.geektech.month7_hw.data.models.Door
 
 @Database(entities = [Camera::class, Door::class], version = 1, exportSchema = true)
-abstract class HouseDatabase : RoomDatabase() {
-    abstract fun getCameraDao(): CameraDao
-    abstract fun getDoorDao(): DoorDao
+abstract class HouseDatabase : RoomDatabase(){
+    abstract fun getCameraDao() : CameraDao
+    abstract fun getDoorDao() : DoorDao
 }

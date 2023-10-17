@@ -14,11 +14,27 @@ fun List<Camera>.mapToCameraModel() = this.map { camera ->
     )
 }
 
+fun List<CameraModel>.mapToCameraList() = this.map { camera ->
+    Camera(
+        id = camera.id,
+        name = camera.name,
+        image = camera.image,
+        isFavourite = camera.isFavourite
+    )
+}
+
 fun List<Door>.mapToDoorModel() = this.map { door ->
     DoorModel(
         id = door.id,
         name = door.name,
-        image = door.image,
+        isFavourite = door.isFavourite
+    )
+}
+
+fun List<DoorModel>.mapToDoorList() = this.map { door ->
+    Door(
+        id = door.id,
+        name = door.name,
         isFavourite = door.isFavourite
     )
 }
@@ -35,6 +51,5 @@ fun DoorModel.convertToDoor() =
     Door(
         id = this.id,
         name = this.name,
-        image = this.image,
         isFavourite = this.isFavourite
     )

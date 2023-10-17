@@ -10,5 +10,5 @@ interface ApiService {
     suspend fun getCameras(): Response<CameraList>
 
     @GET("doors")
-    fun getDoors(): Response<DoorList>
+    suspend fun getDoors(): Response<DoorList>
 }
